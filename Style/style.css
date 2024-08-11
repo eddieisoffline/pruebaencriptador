@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --color-primario: #F3F5FC;
+    --color-secundario: #0A3871;
+    --color-terciario: #343A40;
+    --color-cuaternario: #FFFFFF;
+    --color-quintenario: #495057;
+    --color-sextenario: #D8DFE8;
+
+    --fuente-primaria: 'Inter', sans-serif;
+}
+
+.cuerpo{
+    background-color: var(--color-primario);
+    font-family: var(--fuente-primaria);
+    box-sizing: border-box;
+    height: auto;
+}
+
+header{
+    height: 20%;
+    width: 30%;
+}
+
+.logo__header{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.contenido__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    width: 100%;
+    margin-left: 240px;
+}
+
+textarea {
+   width: 100%;
+   background-color: var(--color-primario);
+   font-size: 2rem;
+   color: var(--color-secundario);
+   resize: none;
+   border: none;
+   font-family: var(--fuente-primaria);
+   height: 400px;
+   margin-top: 7%;
+  }
+
+  textarea::placeholder{
+    color: var(--color-secundario);
+  }
+
+.texto__requisitos{
+    font-size: 0.75rem;
+    color: var(--color-quintenario);
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.logo__texto{
+    width: 10px;
+    height: 10px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.boton__1{
+    background-color: var(--color-secundario);
+    width: 50%;
+    text-align: center;
+   padding: 18.5px 0;
+   border-radius: 24px;
+   font-family: var(--fuente-primaria);
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--color-cuaternario);
+    border: 2px solid var(--color-terciario);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boton__2{
+    background-color: var(--color-sextenario);
+    width: 50%;
+    text-align: center;
+   padding: 18.5px 0;
+   border-radius: 24px;
+   font-family: var(--fuente-primaria);
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-secundario);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boton__1:hover{
+    background-color: var(--color-primario);
+    color: var(--color-quintenario);
+}
+
+.boton__2:hover{
+    background-color: var(--color-cuaternario);
+    color: var(--color-secundario);
+}
+
+.texto__encriptado{
+    background-color: var(--color-cuaternario);
+    border-radius: 32px;
+    width: 40%;
+    height: auto;
+    margin-top: -4%;
+    margin-bottom: -6%;
+}
+
+.imagen__1{
+    width: 304px;
+    height: 282px;
+    padding-top: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.texto__encriptado__titulo{
+    font-size: 1.5rem;
+    color: var(--color-terciario);
+    text-align: center;
+    font-family: var(--fuente-primaria);
+    padding-top: 6%;
+}
+
+.texto__encriptado__requisitos{
+    font-size: 1rem;
+    color: var(--color-quintenario);
+    text-align: center;
+    font-family: var(--fuente-primaria);
+}
+.ocultar{
+    display: block;
+}
+
+.resultado{
+    font-size: 1.5rem;
+    color: var(--color-quintenario);
+    text-align: justify;
+    font-family: var(--fuente-primaria);
+    padding-top: 9%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+
+  
+
+}
+
+.boton__3{
+    background-color: var(--color-cuaternario);
+    width: 100%;
+    text-align: center;
+   padding: 18.5px 0;
+   border-radius: 24px;
+   font-family: var(--fuente-primaria);
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-secundario);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boton__3:hover{
+    background-color: var(--color-primario);
+    color: var(--color-quintenario);
+}
+
+.footer{
+    text-align: center;
+    font-family: var(--fuente-primaria);
+    font-size: 0.75rem;
+    padding-top: 6%;
+}
