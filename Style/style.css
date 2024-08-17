@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
-    --color-primario: #F3F5FC;
-    --color-secundario: #0A3871;
-    --color-terciario: #343A40;
-    --color-cuaternario: #FFFFFF;
-    --color-quintenario: #495057;
-    --color-sextenario: #D8DFE8;
+    --color-primario: #EBF4F6;
+    --color-secundario: #071952;
+    --color-terciario: #088395;
+    --color-cuaternario: #eef1f2;
+    --color-quintenario: #088395;
+    --color-sextenario: #EBF4F6;
 
     --fuente-primaria: 'Inter', sans-serif;
 }
@@ -112,17 +112,17 @@ textarea {
 }
 
 .boton__1:hover{
-    background-color: var(--color-primario);
-    color: var(--color-quintenario);
+    background-color: var(--color-quintenario);
+    color: var(--color-cuaternario);
 }
 
 .boton__2:hover{
-    background-color: var(--color-cuaternario);
-    color: var(--color-secundario);
+    background-color: var(--color-quintenario);
+    color: var(--color-cuaternario);
 }
 
 .texto__encriptado{
-    background-color: var(--color-cuaternario);
+    background-color: #FFF5E1;
     border-radius: 32px;
     width: 40%;
     height: auto;
@@ -204,20 +204,35 @@ textarea {
 }
 
 @media (max-width: 1200px){
-    .container{
-        flex-direction: column-reverse;
+    .contenido{
+        flex-direction: column;
         padding: 5%;
-    }
-
-    .header{
-        padding: 10%;
-    }
-
-    .header__nav{
         justify-content: center;
     }
 
-    .presentacion{
-        width: auto;
+    .header{
+        width: 100%;
+    }
+
+    .contenido__formulario{
+        margin-left: 0;
+        width: 100%;
+    }
+   textarea{
+       width: 100%;
+    }
+    .resultado{
+        width: 100%; 
+        margin-left: 30%;
+    }
+    .texto__encriptado{
+        width: 100%;
+    }
+    .texto__encriptado__titulo{
+        font-size: 1.4rem;
+    }
+    .imagen__1{
+        width: 80%;
+        height: 90%;
     }
 }
