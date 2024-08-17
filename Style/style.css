@@ -202,3 +202,22 @@ textarea {
     font-size: 0.75rem;
     padding-top: 6%;
 }
+
+@media (max-width: 1200px){
+    .container{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .header{
+        padding: 10%;
+    }
+
+    .header__nav{
+        justify-content: center;
+    }
+
+    .presentacion{
+        width: auto;
+    }
+}
